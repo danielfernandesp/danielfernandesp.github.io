@@ -916,14 +916,14 @@ section {
   background: #0563bb;
   color: #fff;
 }
-.contact .php-email-form {
+.contact .formspree-email-form {
   width: 100%;
   background: #fff;
 }
-.contact .php-email-form .form-group {
+.contact .formspree-email-form .form-group {
   padding-bottom: 8px;
 }
-.contact .php-email-form .error-message {
+.contact .formspree-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -931,10 +931,10 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .error-message br + br {
+.contact .formspree-email-form .error-message br + br {
   margin-top: 25px;
 }
-.contact .php-email-form .sent-message {
+.contact .formspree-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -942,13 +942,13 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .loading {
+.contact .formspree-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
-.contact .php-email-form .loading:before {
+.contact .formspree-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -960,26 +960,26 @@ section {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .formspree-email-form input, .contact .formspree-email-form textarea {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
 }
-.contact .php-email-form input {
+.contact .formspree-email-form input {
   height: 44px;
 }
-.contact .php-email-form textarea {
+.contact .formspree-email-form textarea {
   padding: 10px 12px;
 }
-.contact .php-email-form button[type=submit] {
+.contact .formspree-email-form button[type=submit] {
   background: #0563bb;
   border: 0;
   padding: 10px 35px;
-  color: #fff;
+  color: #ffffff;
   transition: 0.4s;
   border-radius: 50px;
 }
-.contact .php-email-form button[type=submit]:hover {
+.contact .formspree-email-form button[type=submit]:hover {
   background: #0678e3;
 }
 @-webkit-keyframes animate-loading {
