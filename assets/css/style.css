@@ -309,6 +309,67 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+/*--------------------------------------------------------------
+# Post Section
+--------------------------------------------------------------*/
+#post-header {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/second.png") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+@media (min-width: 992px) {
+  #post-header {
+    padding-left: 160px;
+  }
+}
+/*--------------------------------------------------------------
+# background: rgba = opacity of bg
+--------------------------------------------------------------*/
+#post-header:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.102);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#post-header h1 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #ffffff; 
+}
+#post-header p {
+  color: #dde0e2; 
+  margin: 15px 0 0 0;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+#post-header p span {
+  color: #004AAD;
+  letter-spacing: 1px;
+} 
+@media (max-width: 992px) {
+  #post-header {
+    text-align: center;
+  }
+  #post-header h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  #post-header p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -383,6 +444,82 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+
+
+/*--------------------------------------------------------------
+# Posts-page
+--------------------------------------------------------------*/
+.posts-page .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #728394;
+}
+.posts-page .content ul {
+  list-style: none;
+  padding: 0;
+}
+.posts-page .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.posts-page .content ul strong {
+  margin-right: 10px;
+}
+.posts-page .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #0563bb;
+  line-height: 0;
+}
+.posts-page .content p:last-child {
+  margin-bottom: 0;
+}
+
+.posts-page .content p {
+  text-align: justify;
+}
+
+/*--------------------------------------------------------------
+# Code section
+--------------------------------------------------------------*/
+
+
+.code-section {
+  margin-top: 20px;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.code-section h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #728394;
+}
+
+.code-section pre {
+  margin: 0;
+}
+
+.code-section code {
+  display: block;
+  padding: 0px;
+  overflow-x: auto;
+  font-family: "Courier New", Courier, monospace;
+  font-size: inherit; /* Inherit font size */
+  color: #333333;
+  white-space: pre-wrap;
+}
+
+/* Specific styling for smaller code block */
+.code-block {
+  display: block;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
 
 /*--------------------------------------------------------------
 # Facts
