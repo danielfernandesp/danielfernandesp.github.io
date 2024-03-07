@@ -445,6 +445,21 @@ section {
   margin-bottom: 0;
 }
 
+/*--------------------------------------------------------------
+# Publication info
+--------------------------------------------------------------*/
+
+.publication-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.publication-info p {
+  font-style: italic;
+  color: #728394;
+  font-size: 16px;
+}
+
 
 /*--------------------------------------------------------------
 # Posts-page
