@@ -291,4 +291,14 @@
     })
   });
 
+  // Function to translate the page to Portuguese
+  document.getElementById('translate-pt').addEventListener('click', function() {
+    document.documentElement.lang = 'pt';
+  });
+
+  // Function to translate the page to English
+  document.getElementById('translate-en').addEventListener('click', function() {
+    document.documentElement.lang = 'en';
+  });
+
 })()
