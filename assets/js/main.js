@@ -300,5 +300,6 @@
   document.getElementById('translate-en').addEventListener('click', function() {
     document.documentElement.lang = 'en';
   });
+  
+})();
 
-})()
